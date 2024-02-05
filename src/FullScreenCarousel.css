@@ -1,0 +1,14 @@
+/* FullScreenCarousel.css */
+.fullscreen-image {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Ajusta según tus necesidades */
+    transform: translateY(-50%);
+  }
